@@ -1,7 +1,7 @@
 public class BMExercicio4 {
     public static void main (String[] args) {
-        long long1 = 100;
-        long int1 = 200;
+        long long1 = 100L;
+        long int1 = 200L;
         long int2; 
         
         int2 = long1 + int1;
@@ -10,13 +10,13 @@ public class BMExercicio4 {
     }
 }
 
-/* Alternativa para a compilação ser possível: 
+/* Código original, que não compila:: 
 
 public class BMExercicio4 {
     public static void main (String[] args) {
-        long long1 = 100;
-        long int1 = 200;
-        long int2;
+        long long1 = 100L;
+        int int1 = 200;
+        int int2;
 
         int2 = long1 + int1;
 
